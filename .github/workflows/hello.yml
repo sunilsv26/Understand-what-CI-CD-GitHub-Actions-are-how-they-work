@@ -1,0 +1,8 @@
+name: Hello World Workflow
+on: [push, pull_request]
+jobs:
+  hello_world_job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Hello World Step
+        run: echo "Hello, World!"
